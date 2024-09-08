@@ -2,6 +2,8 @@
 
 Case graphQL menggunakan public GraphQL API dari `https://github.com/trevorblades/countries/tree/main` API tersebut berisi kumpulan API untuk mendapatkan data dari sebuah country, mulai dari daftar country, states, phone number, dan lain sebagainya.
 
+tujuan dari penggunaan API ini adalah untuk mendapatkan informasi state yang ada diindonesia, beserta dengan code negara, aws region, phone code, dan lain sebagainya.
+
 untuk mendapatkan API menggunakan graphQL digunakan library python requests. untuk hit API nya hampir sama dengan mengakses API pada umumnya. Tetapi method yang digunakan request adalah `POST` karena untuk graphQL memerlukan request body, yang berisi parameter query yang ingin diambil.
 
 pada code `Assigment_web_scrapper_muhammad_khairunnas.ipynb` untuk:
@@ -10,10 +12,17 @@ pada code `Assigment_web_scrapper_muhammad_khairunnas.ipynb` untuk:
 
 untuk export data ke `indonesia_region_dataset.csv.csv` data yang digunakan adalah data dari graphQL code negara `ID` export data yang dilakukan menggunakan pandas setelah daftar state country diubah ke dataframe.
 
+hasil dataframe dari proses graphQL diatas adalah:
+![alt text](image.png)
+
 
 # 2. BeautifulSoup
 
-Case BeautifulSoup digunakan website dari `https://www.dekoruma.com/`. Website tersebut berisi beberapa product furniture bagi customer yang ingin mencari perlengkapan rumah tangga. pada code `Assigment_web_scrapper_muhammad_khairunnas.ipynb` pada header `BeautifulSoup` dilakukan penambahan variabel `count_scrap_item` untuk mengakses halaman pada website tersebut. untuk tahap yang dilakukan adalah:
+Case BeautifulSoup digunakan website dari `https://www.dekoruma.com/`. Website tersebut berisi beberapa product furniture bagi customer yang ingin mencari perlengkapan rumah tangga. Tujuan dari scraping website ini untuk mengambil data product furniture, beserta penilaian rating terhadap furniture yang ditawarkan.
+
+proses:
+
+pada code `Assigment_web_scrapper_muhammad_khairunnas.ipynb` pada header `BeautifulSoup` dilakukan penambahan variabel `count_scrap_item` untuk mengakses halaman pada website tersebut. untuk tahap yang dilakukan adalah:
 
 - membuat perulangan loop untuk mengakses item product sesuai dengan batas `count_scrap_item`.
 - menggunakan request untuk mengambil content dari page website diatas.
@@ -23,7 +32,11 @@ Case BeautifulSoup digunakan website dari `https://www.dekoruma.com/`. Website t
 - kemudian digunakan sleep dari library `time` ke 20 detik untuk mencegah downnya website diatas, agar tetap menghargai server dari yang discrap.
 - setelah data diperoleh data diubah ke dataframe dan diexport ke csv dengan nama `furniture_dataset.csv`
 
+hasil dari export data web scraping adalah sebagai berikut:
+
+![alt text](image-1.png)
 
 
 Author: Muhammad Khairunnas
+
 Email: heft0305@gmail.com
