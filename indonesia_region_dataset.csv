@@ -1,0 +1,35 @@
+,country_code,country_name,country_awsRegion,country_phone_code,state_code,state_name
+0,ID,Indonesia,ap-southeast-1,['62'],ID-AC,Special Region of Aceh
+1,ID,Indonesia,ap-southeast-1,['62'],ID-BA,Bali
+2,ID,Indonesia,ap-southeast-1,['62'],ID-BB,Bangka–Belitung Islands
+3,ID,Indonesia,ap-southeast-1,['62'],ID-BT,Banten
+4,ID,Indonesia,ap-southeast-1,['62'],ID-BE,Bengkulu
+5,ID,Indonesia,ap-southeast-1,['62'],ID-JT,Central Java
+6,ID,Indonesia,ap-southeast-1,['62'],ID-KT,Central Kalimantan
+7,ID,Indonesia,ap-southeast-1,['62'],ID-ST,Central Sulawesi
+8,ID,Indonesia,ap-southeast-1,['62'],ID-JI,East Java
+9,ID,Indonesia,ap-southeast-1,['62'],ID-KI,East Kalimantan
+10,ID,Indonesia,ap-southeast-1,['62'],ID-NT,East Nusa Tenggara
+11,ID,Indonesia,ap-southeast-1,['62'],ID-GO,Gorontalo
+12,ID,Indonesia,ap-southeast-1,['62'],ID-JK,Jakarta Special Capital Region
+13,ID,Indonesia,ap-southeast-1,['62'],ID-JA,Jambi
+14,ID,Indonesia,ap-southeast-1,['62'],ID-LA,Lampung
+15,ID,Indonesia,ap-southeast-1,['62'],ID-MA,Maluku
+16,ID,Indonesia,ap-southeast-1,['62'],ID-KU,North Kalimantan
+17,ID,Indonesia,ap-southeast-1,['62'],ID-MU,North Maluku
+18,ID,Indonesia,ap-southeast-1,['62'],ID-SA,North Sulawesi
+19,ID,Indonesia,ap-southeast-1,['62'],ID-SU,North Sumatra
+20,ID,Indonesia,ap-southeast-1,['62'],ID-PA,Special Region of Papua
+21,ID,Indonesia,ap-southeast-1,['62'],ID-RI,Riau
+22,ID,Indonesia,ap-southeast-1,['62'],ID-KR,Riau Islands
+23,ID,Indonesia,ap-southeast-1,['62'],ID-SG,Southeast Sulawesi
+24,ID,Indonesia,ap-southeast-1,['62'],ID-KS,South Kalimantan
+25,ID,Indonesia,ap-southeast-1,['62'],ID-SN,South Sulawesi
+26,ID,Indonesia,ap-southeast-1,['62'],ID-SS,South Sumatra
+27,ID,Indonesia,ap-southeast-1,['62'],ID-JB,West Java
+28,ID,Indonesia,ap-southeast-1,['62'],ID-KB,West Kalimantan
+29,ID,Indonesia,ap-southeast-1,['62'],ID-NB,West Nusa Tenggara
+30,ID,Indonesia,ap-southeast-1,['62'],ID-PB,Special Region of West Papua
+31,ID,Indonesia,ap-southeast-1,['62'],ID-SR,West Sulawesi
+32,ID,Indonesia,ap-southeast-1,['62'],ID-SB,West Sumatra
+33,ID,Indonesia,ap-southeast-1,['62'],ID-YO,Special Region of Yogyakarta
